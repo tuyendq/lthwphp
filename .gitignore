@@ -1,5 +1,6 @@
 # ignore Tieu ngao giang ho text file
 tngh.txt
+tnhh*.txt
 
 # CakePHP 3
 
