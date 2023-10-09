@@ -1,4 +1,4 @@
-<? php
+<?php
 $welcome = "PHP with .NET on Azure";
 ?>
 <!DOCTYPE html>
@@ -8,6 +8,6 @@ $welcome = "PHP with .NET on Azure";
 <meta charset="utf-8">
 </head>
 <body>
-<h1><?php $welcome ?></h2>
+<h1><?php echo $welcome ?></h1>
 </body>
 </html>
