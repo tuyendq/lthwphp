@@ -1,0 +1,2 @@
+# PHP Environment Variables
+
