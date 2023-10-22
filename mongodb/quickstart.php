@@ -18,3 +18,13 @@
   } catch (Exception $e) {
     printf($e->getMessage());
   }
+
+  try {
+    $database = $client->selectDatabase('book');
+    $collections = $database->command(['listCollections' => 1]);
+    foreach ($collections as $collection) {
+      echo $collection['name'], "\n";
+    }
+  } catch (Exception $e) {
+    printf($e->getMessage());
+  }
