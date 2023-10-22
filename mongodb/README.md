@@ -12,3 +12,11 @@ PS C:\Users\tuyen>
 ```
 NTS: Non Thread Safe
 
+
+
+```
+composer init
+composer require mongodb/mongodb
+composer require vlucas/phpdotnet
+
+```
