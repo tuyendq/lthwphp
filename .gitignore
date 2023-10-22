@@ -3,6 +3,7 @@ tngh.txt
 tnhh*.txt
 
 .env
+vendor/*
 
 # CakePHP 3
 

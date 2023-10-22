@@ -1,0 +1,19 @@
+{
+    "name": "tuyen/mongodb",
+    "description": "Get started with MongoDB",
+    "autoload": {
+        "psr-4": {
+            "Tuyen\\Mongodb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tuyen Dang",
+            "email": "tuyendq@gmail.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.16",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
