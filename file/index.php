@@ -11,10 +11,9 @@ var_dump( file_get_contents('quotes.txt') );
 //     $count++;
 // }
 
-
-
 // echo readfile('quotes.txt');
 
-// $file_handle = fopen('quotes.txt', 'r');
+# Open file to append
+// $file_handle = fopen('quotes.txt', 'a');
 // // TODO
 // fclose($file_handle);
